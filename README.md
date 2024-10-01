@@ -7,7 +7,7 @@ Repository providing the source code for the paper
 
 <p align="center">
   <!-- <img src="assets/teaser.png" alt="Overview of Batch3DMOT architecture" width="245" /> -->
-  <img src="overview.png" alt="Overview of DITTO" width="1200" />
+  <img src="overview.png" alt="Overview of DITTO" width="600" />
 </p>
 
 If you find this repository useful, please consider citing the paper as follows ✍🏼:
@@ -25,7 +25,7 @@ If you find this repository useful, please consider citing the paper as follows 
 We recommend to use conda.
 
 ```[bash]
-# conda create -n DITTO python=3.8 # for a ROS-compatibel environment
+# conda create -n DITTO python=3.8 # for a ROS-compatible environment
 conda create -n DITTO python=3.10 # future proof
 conda activate DITTO
 ```
