@@ -10,16 +10,6 @@ Repository providing the source code for the paper
   <img src="overview.png" alt="Overview of DITTO" width="600" />
 </p>
 
-If you find this repository useful, please consider citing the paper as follows ✍🏼:
-```
-@inproceedings{heppert2024ditto,
-  title={DITTO: Demonstration Imitation by Trajectory Transformation},
-  author={Nick Heppert, Max Argus, Tim Welschehold, Thomas Brox, Abhinav Valada},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2024},
-  organization={IEEE}
-}
-```
 
 ## Installation 🏗
 We recommend to use conda.
@@ -194,9 +184,24 @@ For each demonstration there is a `time_steps.yaml`-file. It contains manual adj
  - t_stop_manual: 35
 ```
 
-## Additions/Changes from the accepted paper 🔀
+## Publication 📝
 
-### Demonstration Splitting
+If you find this repository useful, please consider citing the paper as follows ✍🏼:
+```
+@inproceedings{heppert2024ditto,
+  title={DITTO: Demonstration Imitation by Trajectory Transformation},
+  author={Nick Heppert, Max Argus, Tim Welschehold, Thomas Brox, Abhinav Valada},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+Also checkout our [utility library casino](https://github.com/SuperN1ck/casino).
+
+### Additions/Changes from the accepted paper 🔀
+
+#### Demonstration Splitting
 Please note that different from the paper, we split the `tennisball_cup` into two seperate tasks. 
 
 Original, for the numbers in the paper, they were all merged under one
@@ -219,7 +224,7 @@ tennisball_cup_upright/
     004/
 ```
 
-### Updated Metrics
+#### Updated Metrics
 Vilja Lott also developed an updated metric for calculating the relative pose error. We will release the results soon.
 <!-- Please find update, more accurate results below -->
 
