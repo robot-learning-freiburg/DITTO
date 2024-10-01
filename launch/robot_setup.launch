@@ -1,0 +1,32 @@
+<launch>
+    <!-- By default, we are not in debug mode -->
+    <arg name="debug" default="false" />
+    <arg name="start_zed" default="true" />
+
+    <!-- MoveIt Planning Stuff -->
+    <include file="$(find fmm_moveit_config)/launch/move_group.launch">
+        <arg name="allow_trajectory_execution" value="false"/>
+        <arg name="fake_execution" value="false"/>
+        <arg name="info" value="true"/>
+        <arg name="debug" value="$(arg debug)"/>
+        <!-- <arg name="load_robot_description" value="false"/> -->
+        <arg name="publish_monitored_planning_scene" value="true"/>
+    </include>
+
+    <!-- Zed Stuff -->
+    <group if="$(arg start_zed)">
+        <include file="$(find video_imitator)/launch/custom_zed2i.launch">
+            <!-- This name should actually be more informative I think,
+                but now it's set like this in $(find fmm)/urdf/fmm.urdf.xacro
+                Something better could be zed2i_wirst or so :) -->
+            <arg name="camera_name" value="zed" />
+            <!-- Already published through with our robot description -->
+            <arg name="publish_urdf" value="false" /> 
+            <arg name="param_overrides" value="$(find video_imitator)/params/zed2i_overrides.yaml" />
+        </include>
+    </group>
+    
+    <!-- ContactGraspNet Node -->
+    <!-- Needs double colon for publish-result -->
+    <!-- <node name="ros_contactgraspnet" pkg="ros_contactgraspnet" type="scripts/cgn_node.py" args="publish-results"/> -->
+</launch>

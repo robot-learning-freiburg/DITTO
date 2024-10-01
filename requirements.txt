@@ -1,0 +1,24 @@
+numpy
+tyro
+# vispy
+# chumpy
+# pybullet
+seaborn
+jupyter
+open3d
+# rerun-sdk
+ipympl 
+kornia
+git+https://github.com/facebookresearch/detectron2.git
+git+https://github.com/SuperN1ck/casino.git # Maybe install this locally if you want to change it 
+git+https://github.com/SuperN1ck/Zed2Utils.git
+git+https://github.com/SuperN1ck/cnos@package
+tqdm
+# pyqt5
+scikit-image
+opencv-python-headless
+# mayavi # This does not work in notebooks!
+# pyrender
+spatialmath-python
+# Need to add uois!
+torch
