@@ -41,7 +41,7 @@ conda install -c conda-forge libstdcxx-ng
 pip install -e .
 ```
 
-### Install FlowControl
+### Install FlowControl (optional)
 Frist clone the fork of the repo
 ```[bash]
 git clone git@github.com:SuperN1ck/flowcontrol.git
