@@ -228,3 +228,5 @@ tennisball_cup_upright/
 Vilja Lott also developed an updated metric for calculating the relative pose error. We will release the results soon.
 <!-- Please find update, more accurate results below -->
 
+## 🤝 Acknowledgements
+This work was partially funded by the Carl Zeiss Foundation with the ReScaLe project.
