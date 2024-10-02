@@ -187,7 +187,7 @@ For each demonstration there is a `time_steps.yaml`-file. It contains manual adj
 ## Publication 📝
 
 If you find this repository useful, please consider citing the paper as follows ✍🏼:
-```
+```[bibtex]
 @inproceedings{heppert2024ditto,
   title={DITTO: Demonstration Imitation by Trajectory Transformation},
   author={Nick Heppert, Max Argus, Tim Welschehold, Thomas Brox, Abhinav Valada},
