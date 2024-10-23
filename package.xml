@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>video_imitator</name>
+  <name>DITTO</name>
   <version>0.0.1</version>
-  <description>The video_imitator package</description>
+  <description>The DITTO package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
