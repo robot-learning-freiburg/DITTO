@@ -47,7 +47,7 @@ and installing RAFT as described [here](https://github.com/SuperN1ck/flowcontrol
 
 ## Data 🗄️
 
-Download the all files from [here](ditto.cs.uni-freiburg.de/dataset/demonstration_data.tar.gz) and extract them
+Download the all files from [here](http://ditto.cs.uni-freiburg.de/download/demonstration_data.tar.gz) and extract them
 ```
 tar -xzvf demonstration_data.tar.gz
 ```
